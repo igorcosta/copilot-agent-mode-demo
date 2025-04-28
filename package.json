@@ -15,6 +15,7 @@
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
+    "@types/node": "^22.15.3",
     "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.27",
@@ -24,7 +25,12 @@
     "vue-tsc": "^1.8.8"
   },
   "description": "A Vue 3 TypeScript application with TailwindCSS for deployment on Azure",
-  "keywords": ["vue", "typescript", "tailwindcss", "azure"],
+  "keywords": [
+    "vue",
+    "typescript",
+    "tailwindcss",
+    "azure"
+  ],
   "author": "",
   "license": "MIT"
 }
