@@ -23,6 +23,11 @@ jobs:
       
     - name: Build
       run: npm run build
+      env:
+        # Pass environment variables from GitHub secrets
+        VITE_API_KEY: ${{ secrets.API_KEY }}
+        VITE_API_URL: ${{ secrets.API_URL }}
+        VITE_FEATURE_FLAG_ENABLE_NEW_FEATURE: ${{ secrets.FEATURE_FLAG_ENABLE_NEW_FEATURE }}
       
     - name: Deploy to Azure Web App
       id: deploy-to-azure
