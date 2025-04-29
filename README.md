@@ -11,6 +11,15 @@ This is a simple Vue.js website built with TypeScript and TailwindCSS, designed 
 - Azure deployment configuration
 - GitHub Actions for continuous deployment
 
+## Cloud Native Summit Conference
+
+This project was presented at the Cloud Native Summit conference, a premier event for cloud-native development, containerization, microservices architecture, and modern deployment practices. The conference brings together developers, architects, and technology leaders to share knowledge and best practices in cloud-native application development.
+
+For more information about the Cloud Native Summit conference, visit:
+- [Cloud Native Summit Official Website](https://cloudnativesummit.org)
+- [Conference Schedule](https://cloudnativesummit.org/schedule)
+- [Speaker Sessions](https://cloudnativesummit.org/speakers)
+
 ## Getting Started
 
 ### Prerequisites
