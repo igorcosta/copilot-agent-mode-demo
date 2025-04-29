@@ -10,6 +10,9 @@
         <li>Vue Router for navigation</li>
       </ul>
     </div>
+    
+    <EnvDisplay class="mb-6" />
+    
     <div class="bg-blue-50 rounded-lg p-6">
       <h2 class="text-2xl font-semibold mb-4">Getting Started</h2>
       <p class="mb-4">
@@ -24,8 +27,12 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import EnvDisplay from '@/components/EnvDisplay.vue';
 
 export default defineComponent({
-  name: 'Home'
+  name: 'Home',
+  components: {
+    EnvDisplay
+  }
 });
 </script>
