@@ -1,4 +1,4 @@
-# Vue TypeScript TailwindCSS Demo
+# Simple website for Birds in New Zealand
 
 This is a simple Vue.js website built with TypeScript and TailwindCSS, designed for deployment on Azure.
 
