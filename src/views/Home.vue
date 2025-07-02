@@ -13,6 +13,8 @@
     
     <EnvDisplay class="mb-6" />
     
+    <BirdsList class="mb-6" />
+    
     <div class="bg-blue-50 rounded-lg p-6">
       <h2 class="text-2xl font-semibold mb-4">Getting Started</h2>
       <p class="mb-4">
@@ -28,11 +30,13 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import EnvDisplay from '@/components/EnvDisplay.vue';
+import BirdsList from '@/components/BirdsList.vue';
 
 export default defineComponent({
   name: 'Home',
   components: {
-    EnvDisplay
+    EnvDisplay,
+    BirdsList
   }
 });
 </script>
